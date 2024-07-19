@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento de TI - Joilson Silva</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Planejamento de TI</h1>
+        <h2>Joilson Silva - Diretor de TI</h2>
+    </header>
+    <div class="container">
+        <nav>
+            <h3>Dashboard</h3>
+            <canvas id="progressChart" width="200" height="200"></canvas>
+            <ul>
+                <li><a href="#section1">Organização e Planejamento Diário</a></li>
+                <li><a href="#section2">Automação e Eficiência</a></li>
+                <li><a href="#section3">Gestão de Projetos e Inovação</a></li>
+                <li><a href="#section4">Análise de Dados e Tomada de Decisões</a></li>
+                <li><a href="#section5">Segurança e Conformidade</a></li>
+                <li><a href="#section6">Desenvolvimento Pessoal e Liderança</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="section1">
+                <h3>Organização e Planejamento Diário</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="task1" class="task">
+                        <label for="task1">Utilizar Ferramentas de Gestão de Tarefas</label>
+                        <p>Ferramentas sugeridas: Trello, Asana, Microsoft To-Do.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task2" class="task">
+                        <label for="task2">Priorizar Suas Tarefas</label>
+                        <p>Use a matriz de Eisenhower para distinguir entre tarefas urgentes e importantes.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task3" class="task">
+                        <label for="task3">Estabelecer Rotinas</label>
+                        <p>Crie uma rotina matinal para revisar tarefas e planejar o dia.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task4" class="task">
+                        <label for="task4">Reuniões Diárias</label>
+                        <p>Realize reuniões diárias rápidas com a equipe para alinhar prioridades.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task5" class="task">
+                        <label for="task5">Utilizar Ferramentas de Comunicação</label>
+                        <p>Ferramentas sugeridas: Slack, Microsoft Teams, Zoom.</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="section2">
+                <h3>Automação e Eficiência</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="task6" class="task">
+                        <label for="task6">Identificar Processos Repetitivos</label>
+                        <p>Liste processos que podem ser automatizados para ganhar eficiência.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task7" class="task">
+                        <label for="task7">Utilizar Ferramentas de Automação</label>
+                        <p>Ferramentas sugeridas: Zapier, Microsoft Power Automate, scripts personalizados.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task8" class="task">
+                        <label for="task8">Análise de Processos</label>
+                        <p>Regularmente analise e melhore processos para aumentar a eficiência.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task9" class="task">
+                        <label for="task9">Feedback da Equipe</label>
+                        <p>Incentive a equipe a fornecer feedback sobre processos que podem ser otimizados.</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="section3">
+                <h3>Gestão de Projetos e Inovação</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="task10" class="task">
+                        <label for="task10">Adotar Metodologias Ágeis</label>
+                        <p>Metodologias sugeridas: Scrum, Kanban.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task11" class="task">
+                        <label for="task11">Utilizar Ferramentas de Gestão de Projetos</label>
+                        <p>Ferramentas sugeridas: Jira, Monday.com, Microsoft Project.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task12" class="task">
+                        <label for="task12">Pesquisa e Desenvolvimento</label>
+                        <p>Mantenha-se atualizado com as últimas tendências em tecnologia e inovação.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task13" class="task">
+                        <label for="task13">Prototipagem</label>
+                        <p>Incentive a criação de protótipos e testes de novas tecnologias antes da implementação.</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="section4">
+                <h3>Análise de Dados e Tomada de Decisões</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="task14" class="task">
+                        <label for="task14">Utilizar Ferramentas de BI</label>
+                        <p>Ferramentas sugeridas: Power BI, Tableau, Google Data Studio.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task15" class="task">
+                        <label for="task15">Definir KPIs e Métricas</label>
+                        <p>Defina KPIs claros e relevantes para monitorar o desempenho da TI.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task16" class="task">
+                        <label for="task16">Realizar Análise SWOT</label>
+                        <p>Realize análises SWOT (Forças, Fraquezas, Oportunidades e Ameaças) para decisões estratégicas.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task17" class="task">
+                        <label for="task17">Utilizar Modelos de Decisão</label>
+                        <p>Modelos sugeridos: Matriz de Decisão, Análise de Custo-Benefício.</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="section5">
+                <h3>Segurança e Conformidade</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="task18" class="task">
+                        <label for="task18">Desenvolver Políticas de Segurança</label>
+                        <p>Crie e implemente políticas de segurança cibernética robustas.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task19" class="task">
+                        <label for="task19">Realizar Treinamentos de Segurança</label>
+                        <p>Realize treinamentos regulares de segurança para a equipe.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task20" class="task">
+                        <label for="task20">Assegurar Conformidade com Normas</label>
+                        <p>Verifique que todos os processos e sistemas estejam em conformidade com normas e regulamentos, como a LGPD.</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="section6">
+                <h3>Desenvolvimento Pessoal e Liderança</h3>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="task21" class="task">
+                        <label for="task21">Participar de Cursos e Certificações</label>
+                        <p>Participe de cursos e obtenha certificações relevantes em TI e gestão.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task22" class="task">
+                        <label for="task22">Leitura de Livros e Artigos</label>
+                        <p>Leia livros e artigos sobre liderança, gestão de TI e inovação.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task23" class="task">
+                        <label for="task23">Buscar Mentoria</label>
+                        <p>Busque mentoria de líderes experientes para orientação e crescimento.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="task24" class="task">
+                        <label for="task24">Solicitar Feedback Regular</label>
+                        <p>Solicite regularmente feedback da sua equipe e superiores para melhorar suas habilidades de liderança.</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Joilson Silva - UNIFSM</p>
+    </footer>
+    <script>
+        // Função para calcular a porcentagem de conclusão das tarefas
+        function calculateProgress() {
+            const tasks = document.querySelectorAll('.task');
+            const completedTasks = document.querySelectorAll('.task:checked');
+            const progress = (completedTasks.length / tasks.length) * 100;
+            return progress.toFixed(2);
+        }
+
+        // Função para atualizar o gráfico de progresso
+        function updateChart(chart) {
+            chart.data.datasets[0].data[0] = calculateProgress();
+            chart.data.datasets[0].data[1] = 100 - calculateProgress();
+            chart.update();
+        }
+
+        // Função para salvar o estado das tarefas no localStorage
+        function saveTasks() {
+            const tasks = document.querySelectorAll('.task');
+            const tasksState = Array.from(tasks).map(task => task.checked);
+            localStorage.setItem('tasksState', JSON.stringify(tasksState));
+        }
+
+        // Função para carregar o estado das tarefas do localStorage
+        function loadTasks() {
+            const tasksState = JSON.parse(localStorage.getItem('tasksState'));
+            if (tasksState) {
+                const tasks = document.querySelectorAll('.task');
+                tasks.forEach((task, index) => {
+                    task.checked = tasksState[index];
+                });
+            }
+        }
+
+        // Configuração inicial do gráfico de progresso
+        const ctx = document.getElementById('progressChart').getContext('2d');
+        const progressChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Concluído', 'Restante'],
+                datasets: [{
+                    data: [calculateProgress(), 100 - calculateProgress()],
+                    backgroundColor: ['#4CAF50', '#E0E0E0'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutoutPercentage: 70,
+                title: {
+                    display: true,
+                    text: 'Progresso das Tarefas'
+                }
+            }
+        });
+
+        // Atualiza o gráfico e salva o estado das tarefas quando uma tarefa é marcada/desmarcada
+        document.querySelectorAll('.task').forEach(task => {
+            task.addEventListener('change', () => {
+                updateChart(progressChart);
+                saveTasks();
+            });
+        });
+
+        // Carrega o estado das tarefas e atualiza o gráfico ao carregar a página
+        window.onload = () => {
+            loadTasks();
+            updateChart(progressChart);
+        };
+    </script>
+</body>
+</html>
